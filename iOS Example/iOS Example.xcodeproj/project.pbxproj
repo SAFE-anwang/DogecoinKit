@@ -10,7 +10,7 @@
 		2FA5D47CFAEB8DB143F27645 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FA5DACF4DE83AC5FE512D28 /* Extensions.swift */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		6BC11A5D28EEC7D30001FDF1 /* DogecoinAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BC11A5C28EEC7D30001FDF1 /* DogecoinAdapter.swift */; };
-		BDF7BAD02B0351A50022A4BF /* DogecoinKit in Frameworks */ = {isa = PBXBuildFile; productRef = BDF7BACF2B0351A50022A4BF /* DogecoinKit */; };
+		BD9BCC842B2CE44300619FA7 /* DogecoinKit in Frameworks */ = {isa = PBXBuildFile; productRef = BD9BCC832B2CE44300619FA7 /* DogecoinKit */; };
 		D36AAA9823A2125E0065B32B /* BaseAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D36AAA7F23A2125D0065B32B /* BaseAdapter.swift */; };
 		D36AAA9923A2125E0065B32B /* SendController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D36AAA8123A2125D0065B32B /* SendController.xib */; };
 		D36AAA9A23A2125E0065B32B /* BalanceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D36AAA8223A2125D0065B32B /* BalanceController.swift */; };
@@ -64,7 +64,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BDF7BAD02B0351A50022A4BF /* DogecoinKit in Frameworks */,
+				BD9BCC842B2CE44300619FA7 /* DogecoinKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -174,7 +174,7 @@
 			);
 			name = "iOS Example";
 			packageProductDependencies = (
-				BDF7BACF2B0351A50022A4BF /* DogecoinKit */,
+				BD9BCC832B2CE44300619FA7 /* DogecoinKit */,
 			);
 			productName = LitecoinKit;
 			productReference = 6BC11A5E28EEC7EC0001FDF1 /* DogecoinKit Demo.app */;
@@ -438,7 +438,7 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		BDF7BACF2B0351A50022A4BF /* DogecoinKit */ = {
+		BD9BCC832B2CE44300619FA7 /* DogecoinKit */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = DogecoinKit;
 		};

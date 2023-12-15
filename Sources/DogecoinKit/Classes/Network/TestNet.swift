@@ -1,6 +1,8 @@
 import BitcoinCore
 
 class TestNet: INetwork {
+    var blockchairChainId: String = "3"
+    
     let bundleName = "Dogecoin"
 
     let pubKeyHash: UInt8 = 0x6f

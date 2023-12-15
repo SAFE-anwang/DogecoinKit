@@ -12,7 +12,7 @@ class DogecoinAdapter: BaseAdapter {
             fatalError("Can't Create Seed")
         }
 
-        dogecoinKit = try! Kit(seed: seed, purpose: purpose, walletId: "walletId", syncMode: syncMode, networkType: networkType, confirmationsThreshold: 1, logger: logger.scoped(with: "DogecoinKit"))
+        dogecoinKit = try! Kit(seed: seed, purpose: purpose, walletId: "walletId", syncMode: syncMode, hasher: nil, networkType: networkType, confirmationsThreshold: 1, logger: logger.scoped(with: "DogecoinKit"))
 
         super.init(name: "Dogecoin", coinCode: "dgoecoin", abstractKit: dogecoinKit)
         dogecoinKit.delegate = self

@@ -1,6 +1,8 @@
 import BitcoinCore
 
 public class MainNet: INetwork {
+    public var blockchairChainId: String = "3"
+    
     public let bundleName = "Dogecoin"
     
     public let protocolVersion: Int32 = 70015
@@ -23,8 +25,6 @@ public class MainNet: INetwork {
     ]
 
     public let dustRelayTxFee = 3000
-
-    public init() {}
 
 }
 

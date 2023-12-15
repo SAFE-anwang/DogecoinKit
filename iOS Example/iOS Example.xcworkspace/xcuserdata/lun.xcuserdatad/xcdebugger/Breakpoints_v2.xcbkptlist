@@ -370,7 +370,7 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "69"
             endingLineNumber = "69"
-            landmarkName = "init(extendedKey:purpose:walletId:syncMode:networkType:confirmationsThreshold:logger:)"
+            landmarkName = "init(extendedKey:watchAddressPublicKey:purpose:walletId:syncMode:hasher:networkType:confirmationsThreshold:logger:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
@@ -420,6 +420,20 @@
             endingLineNumber = "36"
             landmarkName = "fromBuffer(data:offset:)"
             landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "19AADEC3-9F3D-42C5-ADEA-129A3512667B"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../../../../Library/Developer/Xcode/DerivedData/iOS_Example-aveqbzuecoztvigxkxbslvkahkqx/SourcePackages/checkouts/BitcoinCore.Swift/Sources/BitcoinCore/Classes/BlockHeaders/DogeHeaderParser.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "77"
+            endingLineNumber = "77">
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>
