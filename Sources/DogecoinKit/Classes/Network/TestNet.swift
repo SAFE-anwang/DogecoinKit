@@ -22,4 +22,5 @@ class TestNet: INetwork {
     ]
 
     let dustRelayTxFee = 3000 // https://github.com/bitcoin/bitcoin/blob/c536dfbcb00fb15963bf5d507b7017c241718bf6/src/policy/policy.h#L50
+    public init() {}
 }

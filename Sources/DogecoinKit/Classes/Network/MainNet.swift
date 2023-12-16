@@ -1,8 +1,6 @@
 import BitcoinCore
 
 public class MainNet: INetwork {
-    public var blockchairChainId: String = "3"
-    
     public let bundleName = "Dogecoin"
     
     public let protocolVersion: Int32 = 70015
@@ -17,6 +15,7 @@ public class MainNet: INetwork {
     public let coinType: UInt32 = 3
     public let sigHash: SigHashType = .bitcoinAll
     public var syncableFromApi: Bool = false
+    public var blockchairChainId: String = "dogecoin"
 
     public let dnsSeeds = [
         "seed.multidoge.org",
@@ -25,6 +24,7 @@ public class MainNet: INetwork {
     ]
 
     public let dustRelayTxFee = 3000
-
+    
+    public init() {}
 }
 
